@@ -1,0 +1,95 @@
+* {box-sizing:border-box;}   
+/*scroll suave*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+#wrapper {
+  margin:auto;
+  width: 100%;
+}
+
+/*********************** ESTILO DE HEADER *************************/
+header {
+  background-color: rgba(89, 89, 89, 0.5);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+/*************** ESTILO TÍTULOS ****************/
+h1 {
+  font-family: 'Caesar Dressing', cursive;
+}
+
+h3 {
+  font-family: 'Caesar Dressing', cursive;
+}
+
+/*************** ESTILO DE NAV (TRAIDA DE W3SCHOOLS) ***************/
+nav {
+  background-color: rgba(89, 89, 89, 0.5);
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-inline: 5%;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: 'Caesar Dressing', cursive;
+}
+
+/***************  HERO SECTION  VERSION 1******************/
+
+
+/************************ HERO SECTION VERSION 2 ***********************/
+
+
+/************************ HERO SECTION VERSION 3 ***********************/
+
+
+/************************ HERO SECTION, OPCION 4: CON UNA IMAGEN DE HAIKEI.APP *******/
+
+
+/**************************** SECCIÓN INTRODUCCIÓN **************************/
+
+
+/**************************** SECCIÓN IDEAS ********************************/
+
+
+/**************************** SECCIÓN AUTORES *****************************/
+
+
+/**************************** MEDIA QUERIES *******************************/
+
+@media only screen and (width<=1000px){
+
+    #wrapper {width:100%;
+              font-size:2rem;}
+
+    .grid2 {grid-template-columns:100%;} /* el grid pasa a ser de 1 columna en tablets */
+
+    #lista2 {margin-top:-40px;}
+
+    .grid3 {grid-template-columns:50% 50%;
+            font-size:1.5rem;}
+
+    .grid4 {grid-template-columns: 50% 50%;}
+    
+}
+
+@media only screen and (width<=600px){
+
+    #titulo { width:80%;
+              }
+    .grid4 {grid-template-columns:100%;}
+
+    .grid3 {grid-template-columns:100%;}
+}
